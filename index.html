@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"
+    content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Flowbite -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+  <link rel="stylesheet" href="public/style.css" />
+
+  <link rel="shortcut icon" href="img/logo.png" type="image/svg+xml">
+
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <title>Planet Vape</title>
+</head>
+
+<body>
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay></div>
+
+      <a href="#">
+        <h1 class="logo">Planet Vape</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">Planet Vape</a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#produk" class="navbar-link" data-navbar-link>Produk</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#kenapa" class="navbar-link" data-navbar-link>Kenapa Kami</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#baru" class="navbar-link" data-navbar-link>Barang Baru</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#lokasi" class="navbar-link" data-navbar-link>Lokasi</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!-- <a href="#" class="btn">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
+        <span>Get A Quote</span>
+      </a> -->
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+    </div>
+  </header>
+
+  <section id="blog">
+    <div class="paralax">
+      <img src="img/stars.webp" id="stars">
+      <img src="img/meteorid.webp" id="meteorid">
+      <img src="img/rocket1.webp" id="rocket">
+      <h1 id="text">To<br>Planet Vape </h1>
+    </div>
+  </section>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-subtitle">Selamat Datang Warga Planet</p>
+
+        <h2 class="h2 hero-title">Planet Vape</h2>
+
+        <p class="hero-text">
+          Temukan kesenangan vaping terbaik di Planet Vape di kota Singkawang! Dengan
+          koleksi terbaru dan pelayanan ramah, kami siap memenuhi kebutuhan vaping
+          Anda. Ayo datang ke toko kami dan nikmati pengalaman vaping yang tak
+          terlupakan!
+        </p>
+
+
+      </div>
+
+      <figure class="hero-banner">
+        <svg class="Svg Svg-mars" id="s-mars" viewBox="0 0 640 640" overflow="visible"
+          xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <clipPath id="s-mars-clip">
+              <circle cx="320" cy="320" r="200" />
+              <!-- Chrome rendering bug fix -->
+              <rect x="-595" y="-153" width="1" height="1" />
+              <rect x="1259" y="814" width="1" height="1" />
+            </clipPath>
+            <mask id="s-mars-shadowCutout">
+              <rect x="120" y="120" width="400" height="540" fill="white" />
+              <circle cx="280" cy="280" r="200" fill="black" />
+            </mask>
+          </defs>
+
+          <circle cx="320" cy="320" r="320" fill="#855ba9" opacity="0.06">
+            <animate attributeName="r" values="320; 300; 320" dur="5s" calcMode="spline"
+              keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite" />
+          </circle>
+          <circle cx="320" cy="320" r="260" fill="#855ba9" opacity="0.08">
+            <animate attributeName="r" values="255; 245; 255" dur="5s" begin="-1.25s" calcMode="spline"
+              keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite" />
+          </circle>
+          <circle cx="320" cy="320" r="210" fill="#855ba9" opacity="0.14" />
+          <circle cx="320" cy="320" r="200" fill="#c53445" />
+
+          <g clip-path="url(#s-mars-clip)">
+            <g id="s-mars-surface">
+              <g opacity="0.35">
+                <g fill="#000052">
+                  <path
+                    d="M316,142a11,11,0,0,1-11,11h-8a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11H401a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H349a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h44a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H267a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h38a11,11,0,0,1,11,11Z" />
+                  <path
+                    d="M312,241a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h62a11,11,0,0,0,11-11h0a11,11,0,0,1,11-11h44a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H420a11,11,0,0,1-11-11h0a11,11,0,0,0-11-11H328a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h23a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11Z" />
+                  <path
+                    d="M272,296a11,11,0,0,0,11,11h20a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-5a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h32a11,11,0,0,1,11,11h0a11,11,0,0,0,11,11h44a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H378a11,11,0,0,1-11-11h0a11,11,0,0,0-11-11h-4a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h24a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H283a11,11,0,0,0-11,11Z" />
+                  <path
+                    d="M227,417a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h92a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H279a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h8a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H195a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h40a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11Z" />
+                  <path
+                    d="M467,450a11,11,0,0,0-11-11H396a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h14a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11H378a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h62a11,11,0,0,0,11-11h0a11,11,0,0,1,11-11h33a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H478a11,11,0,0,1-11-11Z" />
+                  <path
+                    d="M710,384a11,11,0,0,0-11-11H639a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h14a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11H621a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h62a11,11,0,0,0,11-11h0a11,11,0,0,1,11-11h33a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H721a11,11,0,0,1-11-11Z" />
+                  <path
+                    d="M587,505a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11H713a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H669a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h52a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H617a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h8a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11Z" />
+                  <path
+                    d="M603,329a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h93a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H672a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h4a11,11,0,0,0,11-11h0a11,11,0,0,1,11-11h18a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H672a11,11,0,0,0-11,11h0a11,11,0,0,1-11,11H618a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h5a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11Z" />
+                  <path
+                    d="M536,208a11,11,0,0,0,11,11h8a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11H515a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h92a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-8a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h40a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H547a11,11,0,0,0-11,11Z" />
+                  <path
+                    d="M503,648a11,11,0,0,0,11,11h40a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-8a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h92a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H598a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h8a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H514a11,11,0,0,0-11,11Z" />
+                  <path
+                    d="M390,560a11,11,0,0,0,11,11h14a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11H368a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h99a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-8a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h38a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H401a11,11,0,0,0-11,11Z" />
+                  <path
+                    d="M379,692a11,11,0,0,0,11,11h62a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H413a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h23a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H366a11,11,0,0,0-11,11h0a11,11,0,0,1-11,11H324a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h44a11,11,0,0,1,11,11Z" />
+                  <path
+                    d="M423,802a11,11,0,0,1,11-11h32a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-5a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h20a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H388a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h24a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-4a11,11,0,0,0-11,11h0a11,11,0,0,1-11,11H368a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h44a11,11,0,0,0,11-11Z" />
+                  <path
+                    d="M153,780a11,11,0,0,0-11-11h-9a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h33a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H89a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h0a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11H58a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h84a11,11,0,0,0,11-11Z" />
+                  <path
+                    d="M157,681a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h92a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H209a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h8a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H125a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h40a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11Z" />
+                  <path
+                    d="M137,516a11,11,0,0,0,11,11h60a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H194a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h32a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H164a11,11,0,0,0-11,11h0a11,11,0,0,1-11,11H109a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h17a11,11,0,0,1,11,11Z" />
+                  <path
+                    d="M956,142a11,11,0,0,1-11,11h-8a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h104a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H989a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h44a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H907a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h38a11,11,0,0,1,11,11Z" />
+                  <path
+                    d="M952,241a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h62a11,11,0,0,0,11-11h0a11,11,0,0,1,11-11h44a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-20a11,11,0,0,1-11-11h0a11,11,0,0,0-11-11H968a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h23a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11Z" />
+                  <path
+                    d="M912,296a11,11,0,0,0,11,11h20a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-5a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h32a11,11,0,0,1,11,11h0a11,11,0,0,0,11,11h44a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-18a11,11,0,0,1-11-11h0a11,11,0,0,0-11-11h-4a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h24a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H923a11,11,0,0,0-11,11Z" />
+                  <path
+                    d="M824,384a11,11,0,0,0,11,11h40a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-8a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h92a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H919a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h8a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H835a11,11,0,0,0-11,11Z" />
+                  <path
+                    d="M1091,494a11,11,0,0,1,11-11h33a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-17a11,11,0,0,1-11-11h0a11,11,0,0,0-11-11h-60a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h14a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-32a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h62a11,11,0,0,0,11-11Z" />
+                  <path
+                    d="M1137,571a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-96a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h14a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-47a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h99a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-8a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11Z" />
+                  <path
+                    d="M1019,692a11,11,0,0,0,11,11h62a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-39a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h23a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-70a11,11,0,0,0-11,11h0a11,11,0,0,1-11,11H964a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h44a11,11,0,0,1,11,11Z" />
+                  <path
+                    d="M1017,736a11,11,0,0,0,11,11h24a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-4a11,11,0,0,0-11,11h0a11,11,0,0,1-11,11h-18a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h44a11,11,0,0,0,11-11h0a11,11,0,0,1,11-11h32a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-5a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h20a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-93a11,11,0,0,0-11,11Z" />
+                  <path
+                    d="M806,747a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H729a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h0a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11H698a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h84a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11h-9a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11Z" />
+                  <path
+                    d="M900,692a11,11,0,0,0-11-11H849a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h8a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H765a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h40a11,11,0,0,1,11,11h0a11,11,0,0,1-11,11h-8a11,11,0,0,0-11,11h0a11,11,0,0,0,11,11h92a11,11,0,0,0,11-11Z" />
+                  <path
+                    d="M738,494a11,11,0,0,0,11,11h17a11,11,0,0,1,11,11h0a11,11,0,0,0,11,11h60a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H834a11,11,0,0,1-11-11h0a11,11,0,0,1,11-11h32a11,11,0,0,0,11-11h0a11,11,0,0,0-11-11H804a11,11,0,0,0-11,11h0a11,11,0,0,1-11,11H749a11,11,0,0,0-11,11Z" />
+                </g>
+                <g fill="#000052">
+                  <rect x="112" y="109" width="60" height="22" rx="11" />
+                  <rect x="135" y="197" width="75" height="22" rx="11" />
+                  <rect x="105" y="285" width="66" height="22" rx="11" />
+                  <rect x="178" y="329" width="68" height="22" rx="11" />
+                  <rect x="492" y="153" width="104" height="22" rx="11" />
+                  <rect x="660" y="153" width="60" height="22" rx="11" />
+                  <rect x="691" y="219" width="55" height="22" rx="11" />
+                  <rect x="412" y="263" width="74" height="22" rx="11" />
+                  <rect x="490" y="307" width="69" height="22" rx="11" />
+                  <rect x="521" y="373" width="65" height="22" rx="11" />
+                  <rect x="359" y="395" width="40" height="22" rx="11" />
+                  <rect x="433" y="395" width="68" height="22" rx="11" />
+                  <rect x="239" y="549" width="77" height="22" rx="11" />
+                  <rect x="188" y="593" width="104" height="22" rx="11" />
+                  <rect x="205" y="747" width="69" height="22" rx="11" />
+                  <rect x="511" y="593" width="60" height="22" rx="11" />
+                  <rect x="640" y="593" width="60" height="22" rx="11" />
+                  <rect x="828" y="593" width="104" height="22" rx="11" />
+                  <rect x="1151" y="593" width="60" height="22" rx="11" />
+                  <rect x="1143" y="637" width="114" height="22" rx="11" />
+                  <rect x="879" y="549" width="77" height="22" rx="11" />
+                  <rect x="660" y="637" width="60" height="22" rx="11" />
+                  <rect x="520" y="725" width="66" height="22" rx="11" />
+                  <rect x="538" y="769" width="90" height="22" rx="11" />
+                  <rect x="845" y="747" width="69" height="22" rx="11" />
+                  <rect x="752" y="109" width="60" height="22" rx="11" />
+                  <rect x="775" y="197" width="75" height="22" rx="11" />
+                  <rect x="745" y="285" width="66" height="22" rx="11" />
+                  <rect x="818" y="329" width="68" height="22" rx="11" />
+                  <rect x="1132" y="153" width="104" height="22" rx="11" />
+                  <rect x="1144" y="241" width="114" height="22" rx="11" />
+                  <rect x="1052" y="263" width="74" height="22" rx="11" />
+                  <rect x="1130" y="307" width="69" height="22" rx="11" />
+                  <rect x="999" y="395" width="40" height="22" rx="11" />
+                  <rect x="1073" y="395" width="68" height="22" rx="11" />
+                </g>
+                <g fill="#ffffad">
+                  <rect x="193" y="153" width="60" height="22" rx="11" />
+                  <rect x="201" y="241" width="65" height="22" rx="11" />
+                  <rect x="117" y="373" width="39" height="22" rx="11" />
+                  <rect x="433" y="175" width="56" height="22" rx="11" />
+                  <rect x="576" y="109" width="60" height="22" rx="11" />
+                  <rect x="537" y="439" width="40" height="22" rx="11" />
+                  <rect x="431" y="329" width="40" height="22" rx="11" />
+                  <rect x="98" y="549" width="60" height="22" rx="11" />
+                  <rect x="286" y="505" width="41" height="22" rx="11" />
+                  <rect x="303" y="725" width="40" height="22" rx="11" />
+                  <rect x="545" y="549" width="60" height="22" rx="11" />
+                  <rect x="738" y="549" width="60" height="22" rx="11" />
+                  <rect x="926" y="505" width="41" height="22" rx="11" />
+                  <rect x="943" y="725" width="40" height="22" rx="11" />
+                  <rect x="629" y="725" width="40" height="22" rx="11" />
+                  <rect x="833" y="153" width="60" height="22" rx="11" />
+                  <rect x="841" y="241" width="65" height="22" rx="11" />
+                  <rect x="757" y="373" width="39" height="22" rx="11" />
+                  <rect x="1073" y="175" width="56" height="22" rx="11" />
+                  <rect x="1071" y="329" width="40" height="22" rx="11" />
+                </g>
+                <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0" to="-640"
+                  dur="25s" repeatCount="indefinite" />
+              </g>
+            </g>
+            <g id="s-mars-shadow">
+              <rect x="120" y="120" width="400" height="540" mask="url(#s-mars-shadowCutout)" fill="#360043"
+                opacity="0.4" />
+            </g>
+          </g>
+        </svg>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section service" id="produk">
+    <div class="container">
+
+      <h2 class="h2 section-title underline1">Kalian Wajib Punya!!</h2>
+
+      <ul class="service-list">
+
+        <li>
+          <div class="service-card">
+
+            <div class="card-icon">
+              <img src="img/disposable.webp" alt="Liquid">
+            </div>
+
+            <h3 class="h3 title">POD</h3>
+
+            <p class="text">
+              Teknologi canggih bertemu dengan portabilitas tanpa kompromi - temukan pengalaman vaping praktis dengan
+              pod, yang menghadirkan rasa yang intens dengan desain yang ringkas.
+            </p>
+
+
+
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+
+            <div class="card-icon">
+              <img src="img/vape-liquid.webp" alt="Liquid">
+            </div>
+
+            <h3 class="h3 title">Liquid</h3>
+
+            <p class="text">
+              Rasa tak terbatas menanti dalam setiap tetes liquid , dirancang dengan kualitas premium untuk memenuhi
+              selera Anda, dan memberikan kepuasan yang mengesankan setiap kali Anda menghirupnya
+            </p>
+
+
+
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+
+            <div class="card-icon">
+              <img src="img/vape.webp" alt="">
+            </div>
+
+            <h3 class="h3 title">MOD</h3>
+
+            <p class="text">
+              Menghadirkan daya dan keandalan dalam genggaman Anda, mod memberikan kontrol penuh untuk menyesuaikan
+              pengalaman vaping Anda sesuai keinginan, dari intensitas rasa hingga jumlah asap
+            </p>
+
+
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="section features" id="kenapa">
+    <div class="container">
+      <h2 class="h2 section-title underline1">Kenapa Planet??</h2>
+
+      <ul class="features-list">
+        <li>
+          <div class="features-card">
+            <div class="icon">
+              <ion-icon name="bulb-outline"></ion-icon>
+            </div>
+
+            <div class="content">
+              <h3 class="h3 title">Produk Terbaik</h3>
+
+              <p class="text">
+                Menyediakan berbagai produk vape dan aksesoris terbaik.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="features-card">
+            <div class="icon">
+              <ion-icon name="accessibility-outline"></ion-icon>
+            </div>
+
+            <div class="content">
+              <h3 class="h3 title">Pelayanan Profesional</h3>
+
+              <p class="text">
+                Kami selalu memberikan pelayanan pelanggan yang ramah dan
+                berkualitas tinggi untuk membangun loyalitas pelanggan.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <figure class="features-banner">
+        <img src="img/alien.webp" width="369" height="318" loading="lazy" alt="Features Banner"
+          class="w-100 banner-animation" />
+      </figure>
+
+      <ul class="features-list">
+        <li>
+          <div class="features-card">
+            <div class="icon">
+              <ion-icon name="gift-outline"></ion-icon>
+            </div>
+
+            <div class="content">
+              <h3 class="h3 title">Produk Terbaru</h3>
+
+              <p class="text">
+                Selalu menghadirkan produk terbaru dan inovatif dalam mencari
+                pengalaman baru dalam vaping.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="features-card">
+            <div class="icon">
+              <ion-icon name="rocket-outline"></ion-icon>
+            </div>
+
+            <div class="content">
+              <h3 class="h3 title">Sat Set</h3>
+
+              <p class="text">
+                Kami selalu memberikan pelayanan pelanggan yang responsif dan
+                berkualitas tinggi.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="parallax" class="parallax">
+    <h1 class="texth1">Planet Vape</h1>
+
+    <body onload="typeWriter()">
+      <p id="typing" onload="typeWriter()" class="textp"></p>
+    </body>
+
+
+
+    <div id="desktop-scene" class="website">
+      <img src="img/background.webp" alt="Foto Anda" class="bg" />
+      <div data-depth="1.2">
+        <img src="img/earth.webp" />
+      </div>
+      <div data-depth="0.4" class="mid">
+        <img src="img/mid.webp" />
+      </div>
+      <div data-depth="0.1" class="fore">
+        <img src="img/samping.webp" />
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div id="mobile-scene" class="mobile1">
+        <img src="img/earth.webp" data-depth="2" />
+        <img src="img/hp/mid.webp" class="mobile2" />
+        <img src="img/hp/samping.webp" class="mobile2" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section service" id="baru">
+    <div class="container">
+      <h2 class="h2 section-title underline1">Barang Baru Nih!!</h2>
+
+      <ul class="service-list">
+        <li>
+          <blockquote class="instagram-media" data-instgrm-captioned
+            data-instgrm-permalink="https://www.instagram.com/p/C5cjkr5vY_g/?utm_source=ig_embed&amp;utm_campaign=loading"
+            data-instgrm-version="14" style="
+                background: #fff;
+                border: 0;
+                border-radius: 3px;
+                box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5),
+                  0 1px 10px 0 rgba(0, 0, 0, 0.15);
+                margin: 1px;
+                max-width: 540px;
+                min-width: 326px;
+                padding: 0;
+                width: 99.375%;
+                width: -webkit-calc(100% - 2px);
+                width: calc(100% - 2px);
+              ">
+            <div style="padding: 16px">
+              <a href="https://www.instagram.com/p/C5cjkr5vY_g/?utm_source=ig_embed&amp;utm_campaign=loading" style="
+                    background: #ffffff;
+                    line-height: 0;
+                    padding: 0 0;
+                    text-align: center;
+                    text-decoration: none;
+                    width: 100%;
+                  " target="_blank">
+                <div style="
+                      display: flex;
+                      flex-direction: row;
+                      align-items: center;
+                    ">
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 50%;
+                        flex-grow: 0;
+                        height: 40px;
+                        margin-right: 14px;
+                        width: 40px;
+                      "></div>
+                  <div style="
+                        display: flex;
+                        flex-direction: column;
+                        flex-grow: 1;
+                        justify-content: center;
+                      ">
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 4px;
+                          flex-grow: 0;
+                          height: 14px;
+                          margin-bottom: 6px;
+                          width: 100px;
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 4px;
+                          flex-grow: 0;
+                          height: 14px;
+                          width: 60px;
+                        "></div>
+                  </div>
+                </div>
+                <div style="padding: 19% 0"></div>
+                <div style="
+                      display: block;
+                      height: 50px;
+                      margin: 0 auto 12px;
+                      width: 50px;
+                    ">
+                  <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                    xmlns:xlink="https://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                        <g>
+                          <path
+                            d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                          </path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div style="padding-top: 8px">
+                  <div style="
+                        color: #3897f0;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 550;
+                        line-height: 18px;
+                      ">
+                    Lihat postingan ini di Instagram
+                  </div>
+                </div>
+                <div style="padding: 12.5% 0"></div>
+                <div style="
+                      display: flex;
+                      flex-direction: row;
+                      margin-bottom: 14px;
+                      align-items: center;
+                    ">
+                  <div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          height: 12.5px;
+                          width: 12.5px;
+                          transform: translateX(0px) translateY(7px);
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          height: 12.5px;
+                          transform: rotate(-45deg) translateX(3px)
+                            translateY(1px);
+                          width: 12.5px;
+                          flex-grow: 0;
+                          margin-right: 14px;
+                          margin-left: 2px;
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          height: 12.5px;
+                          width: 12.5px;
+                          transform: translateX(9px) translateY(-18px);
+                        "></div>
+                  </div>
+                  <div style="margin-left: 8px">
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          flex-grow: 0;
+                          height: 20px;
+                          width: 20px;
+                        "></div>
+                    <div style="
+                          width: 0;
+                          height: 0;
+                          border-top: 2px solid transparent;
+                          border-left: 6px solid #f4f4f4;
+                          border-bottom: 2px solid transparent;
+                          transform: translateX(16px) translateY(-4px)
+                            rotate(30deg);
+                        "></div>
+                  </div>
+                  <div style="margin-left: auto">
+                    <div style="
+                          width: 0px;
+                          border-top: 8px solid #f4f4f4;
+                          border-right: 8px solid transparent;
+                          transform: translateY(16px);
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          flex-grow: 0;
+                          height: 12px;
+                          width: 16px;
+                          transform: translateY(-4px);
+                        "></div>
+                    <div style="
+                          width: 0;
+                          height: 0;
+                          border-top: 8px solid #f4f4f4;
+                          border-left: 8px solid transparent;
+                          transform: translateY(-4px) translateX(8px);
+                        "></div>
+                  </div>
+                </div>
+                <div style="
+                      display: flex;
+                      flex-direction: column;
+                      flex-grow: 1;
+                      justify-content: center;
+                      margin-bottom: 24px;
+                    ">
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 4px;
+                        flex-grow: 0;
+                        height: 14px;
+                        margin-bottom: 6px;
+                        width: 224px;
+                      "></div>
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 4px;
+                        flex-grow: 0;
+                        height: 14px;
+                        width: 144px;
+                      "></div>
+                </div>
+              </a>
+              <p style="
+                    color: #c9c8cd;
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 17px;
+                    margin-bottom: 0;
+                    margin-top: 8px;
+                    overflow: hidden;
+                    padding: 8px 0 7px;
+                    text-align: center;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                  ">
+                <a href="https://www.instagram.com/p/C5cjkr5vY_g/?utm_source=ig_embed&amp;utm_campaign=loading" style="
+                      color: #c9c8cd;
+                      font-family: Arial, sans-serif;
+                      font-size: 14px;
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: 17px;
+                      text-decoration: none;
+                    " target="_blank">Sebuah kiriman dibagikan oleh PLANET VAPE SINGKAWANG
+                  (@planet.vape.singkawang)</a>
+              </p>
+            </div>
+          </blockquote>
+          <script async src="//www.instagram.com/embed.js"></script>
+        </li>
+
+        <li>
+          <blockquote class="instagram-media" data-instgrm-captioned
+            data-instgrm-permalink="https://www.instagram.com/p/C5cjjUavTsr/?utm_source=ig_embed&amp;utm_campaign=loading"
+            data-instgrm-version="14" style="
+                background: #fff;
+                border: 0;
+                border-radius: 3px;
+                box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5),
+                  0 1px 10px 0 rgba(0, 0, 0, 0.15);
+                margin: 1px;
+                max-width: 540px;
+                min-width: 326px;
+                padding: 0;
+                width: 99.375%;
+                width: -webkit-calc(100% - 2px);
+                width: calc(100% - 2px);
+              ">
+            <div style="padding: 16px">
+              <a href="https://www.instagram.com/p/C5cjjUavTsr/?utm_source=ig_embed&amp;utm_campaign=loading" style="
+                    background: #ffffff;
+                    line-height: 0;
+                    padding: 0 0;
+                    text-align: center;
+                    text-decoration: none;
+                    width: 100%;
+                  " target="_blank">
+                <div style="
+                      display: flex;
+                      flex-direction: row;
+                      align-items: center;
+                    ">
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 50%;
+                        flex-grow: 0;
+                        height: 40px;
+                        margin-right: 14px;
+                        width: 40px;
+                      "></div>
+                  <div style="
+                        display: flex;
+                        flex-direction: column;
+                        flex-grow: 1;
+                        justify-content: center;
+                      ">
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 4px;
+                          flex-grow: 0;
+                          height: 14px;
+                          margin-bottom: 6px;
+                          width: 100px;
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 4px;
+                          flex-grow: 0;
+                          height: 14px;
+                          width: 60px;
+                        "></div>
+                  </div>
+                </div>
+                <div style="padding: 19% 0"></div>
+                <div style="
+                      display: block;
+                      height: 50px;
+                      margin: 0 auto 12px;
+                      width: 50px;
+                    ">
+                  <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                    xmlns:xlink="https://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                        <g>
+                          <path
+                            d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                          </path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div style="padding-top: 8px">
+                  <div style="
+                        color: #3897f0;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 550;
+                        line-height: 18px;
+                      ">
+                    Lihat postingan ini di Instagram
+                  </div>
+                </div>
+                <div style="padding: 12.5% 0"></div>
+                <div style="
+                      display: flex;
+                      flex-direction: row;
+                      margin-bottom: 14px;
+                      align-items: center;
+                    ">
+                  <div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          height: 12.5px;
+                          width: 12.5px;
+                          transform: translateX(0px) translateY(7px);
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          height: 12.5px;
+                          transform: rotate(-45deg) translateX(3px)
+                            translateY(1px);
+                          width: 12.5px;
+                          flex-grow: 0;
+                          margin-right: 14px;
+                          margin-left: 2px;
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          height: 12.5px;
+                          width: 12.5px;
+                          transform: translateX(9px) translateY(-18px);
+                        "></div>
+                  </div>
+                  <div style="margin-left: 8px">
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          flex-grow: 0;
+                          height: 20px;
+                          width: 20px;
+                        "></div>
+                    <div style="
+                          width: 0;
+                          height: 0;
+                          border-top: 2px solid transparent;
+                          border-left: 6px solid #f4f4f4;
+                          border-bottom: 2px solid transparent;
+                          transform: translateX(16px) translateY(-4px)
+                            rotate(30deg);
+                        "></div>
+                  </div>
+                  <div style="margin-left: auto">
+                    <div style="
+                          width: 0px;
+                          border-top: 8px solid #f4f4f4;
+                          border-right: 8px solid transparent;
+                          transform: translateY(16px);
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          flex-grow: 0;
+                          height: 12px;
+                          width: 16px;
+                          transform: translateY(-4px);
+                        "></div>
+                    <div style="
+                          width: 0;
+                          height: 0;
+                          border-top: 8px solid #f4f4f4;
+                          border-left: 8px solid transparent;
+                          transform: translateY(-4px) translateX(8px);
+                        "></div>
+                  </div>
+                </div>
+                <div style="
+                      display: flex;
+                      flex-direction: column;
+                      flex-grow: 1;
+                      justify-content: center;
+                      margin-bottom: 24px;
+                    ">
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 4px;
+                        flex-grow: 0;
+                        height: 14px;
+                        margin-bottom: 6px;
+                        width: 224px;
+                      "></div>
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 4px;
+                        flex-grow: 0;
+                        height: 14px;
+                        width: 144px;
+                      "></div>
+                </div>
+              </a>
+              <p style="
+                    color: #c9c8cd;
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 17px;
+                    margin-bottom: 0;
+                    margin-top: 8px;
+                    overflow: hidden;
+                    padding: 8px 0 7px;
+                    text-align: center;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                  ">
+                <a href="https://www.instagram.com/p/C5cjjUavTsr/?utm_source=ig_embed&amp;utm_campaign=loading" style="
+                      color: #c9c8cd;
+                      font-family: Arial, sans-serif;
+                      font-size: 14px;
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: 17px;
+                      text-decoration: none;
+                    " target="_blank">Sebuah kiriman dibagikan oleh PLANET VAPE SINGKAWANG
+                  (@planet.vape.singkawang)</a>
+              </p>
+            </div>
+          </blockquote>
+          <script async src="//www.instagram.com/embed.js"></script>
+        </li>
+
+        <li>
+          <blockquote class="instagram-media" data-instgrm-captioned
+            data-instgrm-permalink="https://www.instagram.com/p/C5U9ipsPCDG/?utm_source=ig_embed&amp;utm_campaign=loading"
+            data-instgrm-version="14" style="
+                background: #fff;
+                border: 0;
+                border-radius: 3px;
+                box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5),
+                  0 1px 10px 0 rgba(0, 0, 0, 0.15);
+                margin: 1px;
+                max-width: 540px;
+                min-width: 326px;
+                padding: 0;
+                width: 99.375%;
+                width: -webkit-calc(100% - 2px);
+                width: calc(100% - 2px);
+              ">
+            <div style="padding: 16px">
+              <a href="https://www.instagram.com/p/C5U9ipsPCDG/?utm_source=ig_embed&amp;utm_campaign=loading" style="
+                    background: #ffffff;
+                    line-height: 0;
+                    padding: 0 0;
+                    text-align: center;
+                    text-decoration: none;
+                    width: 100%;
+                  " target="_blank">
+                <div style="
+                      display: flex;
+                      flex-direction: row;
+                      align-items: center;
+                    ">
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 50%;
+                        flex-grow: 0;
+                        height: 40px;
+                        margin-right: 14px;
+                        width: 40px;
+                      "></div>
+                  <div style="
+                        display: flex;
+                        flex-direction: column;
+                        flex-grow: 1;
+                        justify-content: center;
+                      ">
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 4px;
+                          flex-grow: 0;
+                          height: 14px;
+                          margin-bottom: 6px;
+                          width: 100px;
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 4px;
+                          flex-grow: 0;
+                          height: 14px;
+                          width: 60px;
+                        "></div>
+                  </div>
+                </div>
+                <div style="padding: 19% 0"></div>
+                <div style="
+                      display: block;
+                      height: 50px;
+                      margin: 0 auto 12px;
+                      width: 50px;
+                    ">
+                  <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                    xmlns:xlink="https://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                        <g>
+                          <path
+                            d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                          </path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div style="padding-top: 8px">
+                  <div style="
+                        color: #3897f0;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 550;
+                        line-height: 18px;
+                      ">
+                    Lihat postingan ini di Instagram
+                  </div>
+                </div>
+                <div style="padding: 12.5% 0"></div>
+                <div style="
+                      display: flex;
+                      flex-direction: row;
+                      margin-bottom: 14px;
+                      align-items: center;
+                    ">
+                  <div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          height: 12.5px;
+                          width: 12.5px;
+                          transform: translateX(0px) translateY(7px);
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          height: 12.5px;
+                          transform: rotate(-45deg) translateX(3px)
+                            translateY(1px);
+                          width: 12.5px;
+                          flex-grow: 0;
+                          margin-right: 14px;
+                          margin-left: 2px;
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          height: 12.5px;
+                          width: 12.5px;
+                          transform: translateX(9px) translateY(-18px);
+                        "></div>
+                  </div>
+                  <div style="margin-left: 8px">
+                    <div style="
+                          background-color: #f4f4f4;
+                          border-radius: 50%;
+                          flex-grow: 0;
+                          height: 20px;
+                          width: 20px;
+                        "></div>
+                    <div style="
+                          width: 0;
+                          height: 0;
+                          border-top: 2px solid transparent;
+                          border-left: 6px solid #f4f4f4;
+                          border-bottom: 2px solid transparent;
+                          transform: translateX(16px) translateY(-4px)
+                            rotate(30deg);
+                        "></div>
+                  </div>
+                  <div style="margin-left: auto">
+                    <div style="
+                          width: 0px;
+                          border-top: 8px solid #f4f4f4;
+                          border-right: 8px solid transparent;
+                          transform: translateY(16px);
+                        "></div>
+                    <div style="
+                          background-color: #f4f4f4;
+                          flex-grow: 0;
+                          height: 12px;
+                          width: 16px;
+                          transform: translateY(-4px);
+                        "></div>
+                    <div style="
+                          width: 0;
+                          height: 0;
+                          border-top: 8px solid #f4f4f4;
+                          border-left: 8px solid transparent;
+                          transform: translateY(-4px) translateX(8px);
+                        "></div>
+                  </div>
+                </div>
+                <div style="
+                      display: flex;
+                      flex-direction: column;
+                      flex-grow: 1;
+                      justify-content: center;
+                      margin-bottom: 24px;
+                    ">
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 4px;
+                        flex-grow: 0;
+                        height: 14px;
+                        margin-bottom: 6px;
+                        width: 224px;
+                      "></div>
+                  <div style="
+                        background-color: #f4f4f4;
+                        border-radius: 4px;
+                        flex-grow: 0;
+                        height: 14px;
+                        width: 144px;
+                      "></div>
+                </div>
+              </a>
+              <p style="
+                    color: #c9c8cd;
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 17px;
+                    margin-bottom: 0;
+                    margin-top: 8px;
+                    overflow: hidden;
+                    padding: 8px 0 7px;
+                    text-align: center;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                  ">
+                <a href="https://www.instagram.com/p/C5U9ipsPCDG/?utm_source=ig_embed&amp;utm_campaign=loading" style="
+                      color: #c9c8cd;
+                      font-family: Arial, sans-serif;
+                      font-size: 14px;
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: 17px;
+                      text-decoration: none;
+                    " target="_blank">Sebuah kiriman dibagikan oleh PLANET VAPE SINGKAWANG
+                  (@planet.vape.singkawang)</a>
+              </p>
+            </div>
+          </blockquote>
+          <script async src="//www.instagram.com/embed.js"></script>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="section features" id="lokasi">
+    <h2 class="h2 section-title underline1">Temukan Kami</h2>
+    <div class="map-responsive">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.316817719659!2d108.98592537496516!3d0.908452499082763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e373626258bfb9%3A0xe06b007581d86c2!2sPlanet%20Vape!5e0!3m2!1sid!2sid!4v1712847676060!5m2!1sid!2sid"
+        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p class="copyright">
+        Made With Pride &copy; 2024
+        <a href="#" class="copyright-link">eztr</a>. All Right Reserved
+      </p>
+    </div>
+  </footer>
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="https://www.instagram.com/planet.vape.singkawang/" class="ig active"  >
+    <ion-icon name="logo-instagram"></ion-icon>
+  </a>
+
+  <a href="https://wa.me/6289689162467" class="wa active" >
+    <ion-icon name="logo-whatsapp"></ion-icon>
+  </a>
+
+  <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+  <!-- Text -->
+  <script src="public/scrolling.js"></script>
+  <script src="public/typing.js"></script>
+  <script src="public/script.js"></script>
+  <!-- Parallax -->
+  <script>
+    var scene = document.getElementById("desktop-scene");
+    var parallax = new Parallax(scene);
+  </script>
+  <script>
+    var scene = document.getElementById("mobile-scene");
+    var parallax = new Parallax(scene);
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
